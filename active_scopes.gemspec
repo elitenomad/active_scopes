@@ -31,5 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "sqlite3"
 
-  gem.add_dependency 'activerecord', '>= 3.2.9'
+  spec.add_dependency 'activerecord', '>= 3.2.9'
 end
